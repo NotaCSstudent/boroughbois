@@ -8,7 +8,8 @@
 class queens : public borough
 {
 public:
-queens(std::string myhood = "NULL");
+queens(std::string myhood = "NULL" , std::string username = "No name added");
+void show();
 };
 
 #endif

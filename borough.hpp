@@ -5,11 +5,15 @@ class borough
 {
 private:
     std::string hood;
+    std::string name;
 
 public:
-    borough(std::string myhood = "NULL");
+    borough(std::string myhood = "NULL" , std::string username = "No name added");
     ~borough();
-    void show();
+    virtual void show();
+    std::string getname();
+    void setname(std::string username);
+    std::string gethood();
 };
 
 

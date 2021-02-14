@@ -1,10 +1,20 @@
 #include "borough.hpp"
+
+/*
+borough::borough(std::string username,std::string myhood)
+{
+    name = username;
+    hood = myhood;
+}
+*/
+
+
+
+
+
 borough::borough(std::string username,std::string myhood)    :  name(username) , hood(myhood)   {}
 
-borough::~borough()
-{
-    hood = "NULL";
-}
+
 
 void borough::show()
 {

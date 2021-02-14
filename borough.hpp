@@ -4,12 +4,11 @@
 class borough
 {
 private:
-    std::string hood;
-    std::string name;
+    std::string hood;//neighborhood
+    std::string name; //your name
 
 public:
     borough(std::string myhood = "NULL" , std::string username = "No name added");
-    ~borough();
     virtual void show();
     std::string getname();
     void setname(std::string username);

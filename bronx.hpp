@@ -4,10 +4,12 @@
 
 
 class bronx : public borough
-{
-public:
-bronx(std::string myhood = "NULL" , std::string username = "No name added");
-void show();
+{   
+    private:
+    std::string train;
+    public:
+    bronx(std::string myhood = "NULL" , std::string username = "No name added",std::string trainline = "No train added");
+    void show();
 };
 
 
